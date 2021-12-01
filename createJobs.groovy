@@ -1,12 +1,3 @@
-pipelineJob('pipelineJob') {
-    definition {
-        cps {
-            script(readFileFromWorkspace('pipelineJob.groovy'))
-            sandbox()
-        }
-    }
-}
-
 pipelineJob('spring-boot-demo-job') {
     definition {
         cpsScm {
