@@ -9,6 +9,7 @@ pipelineJob('spring-boot-demo-job') {
                     branch 'main'
                 }
             }
+            scriptPath('jenkins/Jenkinsfile')
         }
     }
 }
